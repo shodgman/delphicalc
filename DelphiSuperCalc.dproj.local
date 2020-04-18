@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/08 22:16:44.000.809,=D:\Embercadero\Studio\Delphi\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/08 22:17:43.000.319,D:\Embercadero\Studio\Delphi\Projects\Unit1.fmx=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uFormCalculator.fmx</Transaction>
+    <Transaction>2020/04/08 22:17:43.000.319,D:\Embercadero\Studio\Delphi\Projects\Unit1.pas=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uFormCalculator.pas</Transaction>
+    <Transaction>2020/04/08 22:18:04.000.632,D:\Embercadero\Studio\Delphi\Projects\Project1.dproj=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\DelphiSuperCalc.dproj</Transaction>
+    <Transaction>2020/04/08 22:32:47.000.054,=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\Unit1.pas</Transaction>
+    <Transaction>2020/04/08 22:33:05.000.390,D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\Unit1.pas=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uCalculator.pas</Transaction>
+    <Transaction>2020/04/17 17:48:47.403,=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\Unit1.pas</Transaction>
+    <Transaction>2020/04/17 17:49:29.853,D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uFormNewCalc.fmx=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\Unit1.fmx</Transaction>
+    <Transaction>2020/04/17 17:49:29.853,D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uFormNewCalc.pas=D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\Unit1.pas</Transaction>
+    <Transaction>2020/04/17 18:17:39.502,D:\Embercadero\Studio\Delphi\Projects\DelphiCalc\uFormCalculator.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,395 @@
+object FormMyCalc: TFormMyCalc
+  Left = 0
+  Top = 0
+  Caption = 'FormMyCalc'
+  ClientHeight = 532
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 532.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Sizes = (
+      400s
+      506s
+      400s
+      506s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object LayoutDisplay: TLayout
+        Align = Top
+        Size.Width = 400.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object LabelDisplay: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 400.000000000000000000
+          Size.Height = 100.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 72.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = '0'
+          TabOrder = 0
+        end
+      end
+      object ScaledLayout1: TScaledLayout
+        Align = Client
+        OriginalWidth = 300.000000000000000000
+        OriginalHeight = 406.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 406.000000000000000000
+        Size.PlatformDefault = False
+        object GridLayoutButtons: TGridLayout
+          Align = Client
+          ItemHeight = 100.000000000000000000
+          ItemWidth = 100.000000000000000000
+          Orientation = Horizontal
+          Size.Width = 400.000000000000000000
+          Size.Height = 406.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Button1: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 15
+            Text = '1'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button2: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 105.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 14
+            Text = '2'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button3: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 205.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 13
+            Text = '3'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object ButtonPlus: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 305.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 12
+            Text = '+'
+            TextSettings.Font.Size = 48.000000000000000000
+            OnClick = ButtonPlusClick
+          end
+          object Button4: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            Text = '4'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button5: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 105.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 10
+            Text = '5'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button6: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 205.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 9
+            Text = '6'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object ButtonMinus: TButton
+            Align = Scale
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 305.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 8
+            Text = '-'
+            TextSettings.Font.Size = 72.000000000000000000
+            OnClick = ButtonMinusClick
+          end
+          object Button7: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Position.Y = 205.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 7
+            Text = '7'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button8: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 105.000000000000000000
+            Position.Y = 205.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = '8'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object Button9: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 205.000000000000000000
+            Position.Y = 205.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '9'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object ButtonMultiply: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 305.000000000000000000
+            Position.Y = 205.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = 'X'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonMultiplyClick
+          end
+          object ButtonDecimal: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Position.Y = 305.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            Text = '.'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonDecimanlClick
+          end
+          object Button0: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 105.000000000000000000
+            Position.Y = 305.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Text = '0'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonNumberClick
+          end
+          object ButtonEquals: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 205.000000000000000000
+            Position.Y = 305.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = '='
+            TextSettings.Font.Size = 72.000000000000000000
+            OnClick = ButtonEqualsClick
+          end
+          object ButtonDivide: TButton
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 305.000000000000000000
+            Position.Y = 305.000000000000000000
+            Size.Width = 90.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = '/'
+            TextSettings.Font.Size = 36.000000000000000000
+            OnClick = ButtonDivideClick
+          end
+          object Layout3D1: TLayout3D
+            Height = 4.000000000000000000
+            Width = 5.000000000000000000
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 400.000000000000000000
+        Size.Height = 506.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+  object MultiView1: TMultiView
+    PopoverOptions.StyleLookup = ''
+    PopoverOptions.PopupHeight = 100.000000000000000000
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 97.000000000000000000
+    DragMode = dmAutomatic
+    Locked = True
+    Size.Width = 250.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 0
+    object CalcButton: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 40.000000000000000000
+      TabOrder = 1
+      Text = 'Golf Button'
+    end
+    object GolfButton: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 72.000000000000000000
+      TabOrder = 0
+      Text = 'CalcButton'
+    end
+  end
+end

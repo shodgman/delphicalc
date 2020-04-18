@@ -1,0 +1,14 @@
+object FormCalc: TFormCalc
+  Left = 0
+  Top = 0
+  Caption = 'Delphi Super Calculator'
+  ClientHeight = 560
+  ClientWidth = 405
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  
+end
