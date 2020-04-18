@@ -15,7 +15,7 @@ object FormMyCalc: TFormMyCalc
     Size.Width = 400.000000000000000000
     Size.Height = 532.000000000000000000
     Size.PlatformDefault = False
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     TabPosition = PlatformDefault
     Sizes = (
@@ -27,7 +27,7 @@ object FormMyCalc: TFormMyCalc
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 69.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
@@ -56,7 +56,7 @@ object FormMyCalc: TFormMyCalc
       end
       object ScaledLayout1: TScaledLayout
         Align = Client
-        OriginalWidth = 300.000000000000000000
+        OriginalWidth = 400.000000000000000000
         OriginalHeight = 406.000000000000000000
         Size.Width = 400.000000000000000000
         Size.Height = 406.000000000000000000
@@ -345,7 +345,7 @@ object FormMyCalc: TFormMyCalc
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 69.000000000000000000
       Size.Height = 26.000000000000000000
       Size.PlatformDefault = False
@@ -365,6 +365,13 @@ object FormMyCalc: TFormMyCalc
         Size.PlatformDefault = False
         TabOrder = 0
       end
+      object SelectCalc: TButton
+        Position.X = 312.000000000000000000
+        Position.Y = 8.000000000000000000
+        TabOrder = 1
+        Text = 'SelectCalc'
+        OnClick = SelectCalcClick
+      end
     end
   end
   object MultiView1: TMultiView
@@ -375,7 +382,7 @@ object FormMyCalc: TFormMyCalc
     DragMode = dmAutomatic
     Locked = True
     Size.Width = 250.000000000000000000
-    Size.Height = 400.000000000000000000
+    Size.Height = 532.000000000000000000
     Size.PlatformDefault = False
     Visible = False
     TabOrder = 0

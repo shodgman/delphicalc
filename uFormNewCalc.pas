@@ -40,6 +40,7 @@ type
     CalcButton: TButton;
     GolfButton: TButton;
     ListView1: TListView;
+    SelectCalc: TButton;
     procedure ButtonNumberClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -51,6 +52,7 @@ type
     procedure ButtonEqualsClick(Sender: TObject);
     procedure CalcButtonClick(Sender: TObject);
     procedure GolfButtonClick(Sender: TObject);
+    procedure SelectCalcClick(Sender: TObject);
   private
     { Private declarations }
     CalcStatus : TCalcStatus;
@@ -76,6 +78,11 @@ end;
 procedure TFormMyCalc.FormDestroy(Sender: TObject);
 begin
   CalcStatus.Free;
+end;
+
+procedure TFormMyCalc.SelectCalcClick(Sender: TObject);
+begin
+    TabControl1.ActiveTab := TabControl1.Tabs[1];
 end;
 
 procedure TFormMyCalc.ButtonDecimanlClick(Sender: TObject);
